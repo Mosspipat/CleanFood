@@ -196,8 +196,11 @@ export class Main extends Component{
 				</div>);
 		}
 
+
 		document.getElementById("ContentFood").style.width="0px";
 		document.getElementById("ContentFood").style.height="0px";
+
+		
 	}
 
 	stateOpenContentFoodThird=(event)=>{
@@ -315,7 +318,7 @@ export class Main extends Component{
                     			<hr></hr>
                     			<a href="#" className="list-item-box" onClick={this.stateOpenTopbar}>Recipt</a> 
                     			<hr></hr>                                        
-                    			<a href="#" className="list-item-box" onClick={this.stateOpenChooseMenuContect} value={this.state.keyContact}>Contect</a> 
+                    			<a href="#" className="list-item-box" onClick={this.stateOpenChooseMenuContect} value={this.state.keyContact}>Contact</a> 
                     			<hr></hr> 
                     		</div>
                     	</div>
@@ -358,11 +361,15 @@ export class Main extends Component{
                     	<div className="home-block-style">
                     		<h2 className="home-font-topic-header">Home</h2>
                     		<img src={logo} alt="logo" className="home-crop-photo"/>
+                    		<div className="background-box-home">
                     		<h2 className="home-font-header">What It Really Means to Eat Clean ?</h2>
 							<h3 className="food-font-style">It isn’t as scary, or as limiting, as it sounds.</h3>
+							</div>
                     	</div>
                     </div>
                     </div>
+
+
                    
                     <div id="ContentFood" className="food-content-style-box">
                     	<div className="food-box-style">
@@ -436,11 +443,12 @@ export class Main extends Component{
 						<div className="col-md-12">           
 							<h1 className="contact-font-style">Contact</h1>
 						</div>                
-					</div>                 
+					</div>
+					<div className="background-contact-box">
+					<div>                 
 					<div className="row">                                      
 						<div className="col-md-4">          
-						                                 
-
+						    <div className="background-contact-margin">                         
 							<img src={logojune} alt="Header" className="contact-crop-style" />
                                          
 							<div className="font-box">
@@ -449,21 +457,24 @@ export class Main extends Component{
 								<h2 className="font-contact-center">E-mail: Chanita_spr@hotmail.com</h2>
 								<h2 className="font-contact-center">Phone :095-472-4667</h2>
 							</div>
+							</div>
 							
 						
 						</div>                             
 						<div className="col-md-4">             
-						                                 
+						    <div className="background-contact-margin">                                
 							<img src={logoFord} alt="Header" className="contact-crop-style" />
 							<div className="font-box">
 								<h2 className="font-contact-center">Facebook: Patipan Injai</h2>
 								<h2 className="font-contact-center">Mr.Patipan Injai</h2>
 								<h2 className="font-contact-center">E-mail: i.patipan2539@gmail.com</h2>
 								<h2 className="font-contact-center">Phone: 092-270-7454</h2>
-							</div>           
+							</div>  
+							</div>         
 							                   
 						</div>         
-						<div className="col-md-4">              
+						<div className="col-md-4">
+							<div className="background-contact-margin">          
 							<img src={logomoss} alt="Header" className="contact-crop-style" />
 								<div className="font-box">            
 									<h2 className="font-contact-center">Facebook: Moss Pipat</h2>
@@ -472,8 +483,12 @@ export class Main extends Component{
 									<h2 className="font-contact-center">Phone: 083-266-6988</h2>
 								</div>
 							</div>
-						
+							</div>
+
+
 						</div>
+					</div>
+					</div>
 					</div>
 					</div>
 					</div>

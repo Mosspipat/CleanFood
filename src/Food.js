@@ -15,7 +15,7 @@ export class Food extends Component{
 				<div className="row">
 						<div>  
 							<div>
-								<img src={logo} alt="logo" className="food-crop-photo"/>	
+								<img src={logo} alt="logo" className="food-crop-margin"/>	
 								<h2 className="food-font-style">ข้าวไก่ย่างซีอิ๊ว</h2>
 							</div>
 						</div>
@@ -50,6 +50,7 @@ export class Food extends Component{
 							</div>
 
 						</div>
+				
 				</div>
 			</div>
 

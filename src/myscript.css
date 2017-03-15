@@ -82,13 +82,25 @@
   border-radius: 10px;
   background-color: #2E2E2E;
 }
+.background-contact-box{
+  width: 1000px;
+  height: 450px;
+  text-align: center;
+  border-radius: 0px;
+  background-color: #2E2E2E;
+}
+
+.background-contact-margin{
+  margin-top: 60px;
+}
 
 .font-contact-center{
+  width: 300px;
   color: #ffffff;
   font-family: "minimal";
   src:url(fonts/minimal.otf);
-  font-size: 18px;
-  text-align: relative;       
+  font-size: 15px;
+  text-align: center;       
   margin-right: 50px;
 }
 .font-box{
@@ -109,6 +121,14 @@
   border-radius: 50%;
 }
 
+.food-crop-margin{
+  width: 200px;
+  height: 200px;
+  margin-top: 5px;
+  border-radius: 50%;
+
+}
+
 .food-box-style{
   width: 1000px;
   text-align: center;
@@ -123,7 +143,6 @@
     margin-right: auto;
     z-index: 1;
     top: 0;
-    border-radius: 10%;
     left: 0;
     background-color: #2E2E2E;
     overflow-y: hidden;
@@ -140,7 +159,6 @@
     margin-right: auto;
     z-index: 1;
     top: 0;
-    border-radius: 10%;
     left: 0;
     background-color: #2E2E2E;
     overflow-y: hidden;
@@ -158,6 +176,10 @@
   background-color: #2E2E2E;
 }
 
+.food-margin-box{
+  margin-top: 10px;
+}
+
 .food-crop-logo{
   margin-top: 10%;
   width: 200px;
@@ -169,10 +191,13 @@
   font-family: "minimal";
   src:url(/fonts/minimal.otf);
   color: #ffffff;
-  margin-top: 15px;
   font-size: 20px;
 }
 
+.background-box-home{
+
+  background-color: #2E2E2E;
+}
 .food-font-style-list{
   font-family: "minimal";
   src:url(/fonts/minimal.otf);
@@ -241,7 +266,7 @@
   color: #ffffff;
   font-size: 30px;
   border-radius: 10px;
-  height: 50px;
+  height: 20px;
   background-color: #2E2E2E;
   font-family: "minimal";
   src:url(/fonts/minimal.otf);
